@@ -76,8 +76,11 @@ venv.bak/
 Thumbs.db
 
 # Project specific
-*.csv
-outputs/
+outputs/*.png
+outputs/*.jpg
 models/
 *.pkl
 *.joblib
+
+# Data files (if too large for git)
+# data/*.csv
